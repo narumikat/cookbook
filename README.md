@@ -1,24 +1,5 @@
-⚠️ There's **no `rake`** for this exercise. Sorry 😉
 
 Our goal in this challenge is to enhance our existing cookbook, coded in the previous challenge, by finding recipes online. We will use [allrecipes](https://www.allrecipes.com), because their markup structure is pretty clean (making them good candidates for scraping). If you want to choose another recipe website, please go ahead! It just needs to have a **search** feature where the search keywords are passed in the [query string](https://en.wikipedia.org/wiki/Query_string).
-
-## Setup
-
-First, let's copy paste your Cookbook's code to this challenge's `lib` folder:
-
-```bash
-# make sure you're in the right directory
-cd ~/code/<user.github_nickname>/fullstack-challenges/02-OOP/03-Cookbook/04-Cookbook-With-Scraping
-
-# copy your code from Cookbook Challenge 2
-cp -r ../03-Cookbook-With-CSV/lib .
-```
-
-Before starting, run the code you've just imported to make sure that the implemented user actions (list / add / remove) are still working!
-
-```bash
-ruby lib/app.rb
-```
 
 ## Import recipes from the web
 
